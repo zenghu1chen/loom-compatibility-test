@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * Run with --enable-preview -Djdk.virtualThreadScheduler.parallelism=4.
+ * Run with --enable-preview -Djdk.virtualThreadScheduler.parallelism=4
  * This test case is likely to hang between 1-20 minutes.
  * The default value of jdk.virtualThreadScheduler.parallelism is the number of CPU cores. In order to reproduce deadlock situations,
  * this value needs to be set to be consistent with or smaller than MAX_TOTAL.
